@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audio_config>
+    <feature name="OPLUS_MMI_MAINHL_ID" config="9"/>
+    <feature name="OPLUS_USB_KTV_SUPPORT" config="yes"/>
+    <feature name="OPLUS_RECORD_MODE_SWITCH" config="NOTSUPPORT"/>
+</audio_config>
