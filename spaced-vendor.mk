@@ -247,8 +247,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/realme/spaced/proprietary/odm/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp-pnscr.conf \
     vendor/realme/spaced/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
-    vendor/realme/spaced/proprietary/odm/etc/temperature_profile/sys_high_temp_protect_realme_21690.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_high_temp_protect_realme_21690.xml \
-    vendor/realme/spaced/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
     vendor/realme/spaced/proprietary/odm/etc/wifi/txpowerctrl.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/txpowerctrl.cfg \
     vendor/realme/spaced/proprietary/odm/etc/wifi/wifi.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi.cfg \
     vendor/realme/spaced/proprietary/odm/etc/wifi/wifi_active_channel.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi_active_channel.cfg \
@@ -268,8 +266,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/odm/firmware/aw87359/aw87359_dspk_ftm.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw87359/aw87359_dspk_ftm.bin \
     vendor/realme/spaced/proprietary/odm/firmware/awinic_haptic_gun_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_gun_params.bin \
     vendor/realme/spaced/proprietary/odm/firmware/awinic_haptic_params.bin:$(TARGET_COPY_OUT_ODM)/firmware/awinic_haptic_params.bin \
+    vendor/realme/spaced/proprietary/odm/firmware/fastchg/20171/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20171/oplus_vooc_fw_op10.bin \
+    vendor/realme/spaced/proprietary/odm/firmware/fastchg/20353/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20353/oplus_vooc_fw_op10.bin \
     vendor/realme/spaced/proprietary/odm/firmware/fastchg/20615/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20615/charging_thermal_config_default.txt \
     vendor/realme/spaced/proprietary/odm/firmware/fastchg/20662/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20662/charging_thermal_config_default.txt \
+    vendor/realme/spaced/proprietary/odm/firmware/fastchg/20827/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20827/oplus_vooc_fw_op10.bin \
+    vendor/realme/spaced/proprietary/odm/firmware/fastchg/20827/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20827/oplus_vooc_fw_rt5125.bin \
+    vendor/realme/spaced/proprietary/odm/firmware/fastchg/20831/oplus_vooc_fw_op10.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20831/oplus_vooc_fw_op10.bin \
+    vendor/realme/spaced/proprietary/odm/firmware/fastchg/20831/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20831/oplus_vooc_fw_rt5125.bin \
     vendor/realme/spaced/proprietary/odm/firmware/fastchg/21609/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21609/charging_thermal_config_default.txt \
     vendor/realme/spaced/proprietary/odm/firmware/fastchg/21651/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21651/charging_thermal_config_default.txt \
     vendor/realme/spaced/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
