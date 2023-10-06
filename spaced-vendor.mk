@@ -249,8 +249,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/realme/spaced/proprietary/odm/etc/wifi/txpowerctrl.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/txpowerctrl.cfg \
     vendor/realme/spaced/proprietary/odm/etc/wifi/wifi.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi.cfg \
-    vendor/realme/spaced/proprietary/odm/etc/wifi/wifi_active_channel.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi_active_channel.cfg \
-    vendor/realme/spaced/proprietary/odm/etc/wifi/wifi_passive_channel.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi_passive_channel.cfg \
     vendor/realme/spaced/proprietary/odm/firmware/aw87319_bspk.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw87319_bspk.bin \
     vendor/realme/spaced/proprietary/odm/firmware/aw87319_rcv.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw87319_rcv.bin \
     vendor/realme/spaced/proprietary/odm/firmware/aw87319_spk.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw87319_spk.bin \
@@ -313,6 +311,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/odm/firmware/tp/21684/FW_NF_ILI7807S_HLT_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/21684/FW_NF_ILI7807S_HLT_FAE.bin \
     vendor/realme/spaced/proprietary/odm/firmware/tp/21684/LIMIT_NF_ILI7807S_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21684/LIMIT_NF_ILI7807S_BOE.img \
     vendor/realme/spaced/proprietary/odm/firmware/tp/21684/LIMIT_NF_ILI7807S_HLT.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21684/LIMIT_NF_ILI7807S_HLT.img \
+    vendor/realme/spaced/proprietary/odm/firmware/wifi_active_channel.cfg:$(TARGET_COPY_OUT_ODM)/firmware/wifi_active_channel.cfg \
+    vendor/realme/spaced/proprietary/odm/firmware/wifi_passive_channel.cfg:$(TARGET_COPY_OUT_ODM)/firmware/wifi_passive_channel.cfg \
     vendor/realme/spaced/proprietary/odm/init.oplus.fingerprints.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.fingerprints.rc \
     vendor/realme/spaced/proprietary/odm/lib/anc.capacitive.hal.so:$(TARGET_COPY_OUT_ODM)/lib/anc.capacitive.hal.so \
     vendor/realme/spaced/proprietary/odm/lib/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib/anc.hal.so \
