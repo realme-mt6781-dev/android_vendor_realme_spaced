@@ -7,15 +7,38 @@ soong_namespace {
 	],
 }
 
-android_app_import {
-	name: "EngineerMode",
+cc_prebuilt_library_shared {
+	name: "vendor.mediatek.hardware.power@1.1",
 	owner: "realme",
-	apk: "proprietary/priv-app/EngineerMode/EngineerMode.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
+	strip: {
+		none: true,
 	},
-	privileged: true,
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.power@1.1.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.mediatek.hardware.power@2.0",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.power@2.0.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
 }
 
 android_app_import {
@@ -39,6 +62,17 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
+}
+
+android_app_import {
+	name: "EngineerMode",
+	owner: "realme",
+	apk: "proprietary/system_ext/app/EngineerMode/EngineerMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
 }
 
 dex_import {
@@ -81,6 +115,12 @@ dex_import {
 	name: "mediatek-ims-extension-plugin",
 	owner: "realme",
 	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
+}
+
+dex_import {
+	name: "mediatek-services",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-services.jar"],
 }
 
 dex_import {
