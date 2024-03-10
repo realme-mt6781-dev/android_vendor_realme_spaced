@@ -21,7 +21,7 @@ android_app_import {
 android_app_import {
 	name: "ImsService",
 	owner: "realme",
-	apk: "proprietary/priv-app/ImsService/ImsService.apk",
+	apk: "proprietary/system/priv-app/ImsService/ImsService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -44,67 +44,49 @@ android_app_import {
 dex_import {
 	name: "mediatek-common",
 	owner: "realme",
-	jars: ["proprietary/framework/mediatek-common.jar"],
+	jars: ["proprietary/system/framework/mediatek-common.jar"],
 }
 
 dex_import {
 	name: "mediatek-framework",
 	owner: "realme",
-	jars: ["proprietary/framework/mediatek-framework.jar"],
-}
-
-dex_import {
-	name: "mediatek-gwsd",
-	owner: "realme",
-	jars: ["proprietary/framework/mediatek-gwsd.jar"],
-}
-
-dex_import {
-	name: "mediatek-gwsdv2",
-	owner: "realme",
-	jars: ["proprietary/framework/mediatek-gwsdv2.jar"],
+	jars: ["proprietary/system/framework/mediatek-framework.jar"],
 }
 
 dex_import {
 	name: "mediatek-ims-base",
 	owner: "realme",
-	jars: ["proprietary/framework/mediatek-ims-base.jar"],
+	jars: ["proprietary/system/framework/mediatek-ims-base.jar"],
 }
 
 dex_import {
 	name: "mediatek-ims-common",
 	owner: "realme",
-	jars: ["proprietary/framework/mediatek-ims-common.jar"],
+	jars: ["proprietary/system/framework/mediatek-ims-common.jar"],
 }
 
 dex_import {
 	name: "mediatek-ims-extension-plugin",
 	owner: "realme",
-	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
-}
-
-dex_import {
-	name: "mediatek-services",
-	owner: "realme",
-	jars: ["proprietary/framework/mediatek-services.jar"],
+	jars: ["proprietary/system/framework/mediatek-ims-extension-plugin.jar"],
 }
 
 dex_import {
 	name: "mediatek-telecom-common",
 	owner: "realme",
-	jars: ["proprietary/framework/mediatek-telecom-common.jar"],
+	jars: ["proprietary/system/framework/mediatek-telecom-common.jar"],
 }
 
 dex_import {
 	name: "mediatek-telephony-base",
 	owner: "realme",
-	jars: ["proprietary/framework/mediatek-telephony-base.jar"],
+	jars: ["proprietary/system/framework/mediatek-telephony-base.jar"],
 }
 
 dex_import {
 	name: "mediatek-telephony-common",
 	owner: "realme",
-	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
+	jars: ["proprietary/system/framework/mediatek-telephony-common.jar"],
 }
 
 dex_import {
