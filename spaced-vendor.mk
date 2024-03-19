@@ -292,29 +292,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/odm/firmware/tp/21684/LIMIT_NF_ILI7807S_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21684/LIMIT_NF_ILI7807S_BOE.img \
     vendor/realme/spaced/proprietary/odm/firmware/tp/21684/LIMIT_NF_ILI7807S_HLT.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21684/LIMIT_NF_ILI7807S_HLT.img \
     vendor/realme/spaced/proprietary/odm/init.oplus.fingerprints.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.fingerprints.rc \
-    vendor/realme/spaced/proprietary/odm/lib/anc.capacitive.hal.so:$(TARGET_COPY_OUT_ODM)/lib/anc.capacitive.hal.so \
-    vendor/realme/spaced/proprietary/odm/lib/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib/anc.hal.so \
-    vendor/realme/spaced/proprietary/odm/lib/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G2.default.so \
-    vendor/realme/spaced/proprietary/odm/lib/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G3.default.so \
-    vendor/realme/spaced/proprietary/odm/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G5.default.so \
-    vendor/realme/spaced/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
-    vendor/realme/spaced/proprietary/odm/lib/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G7.default.so \
-    vendor/realme/spaced/proprietary/odm/lib/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.silead.default.so \
     vendor/realme/spaced/proprietary/odm/lib/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib/libAlgoProcess.so \
     vendor/realme/spaced/proprietary/odm/lib/libAncHumBokeh.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumBokeh.so \
     vendor/realme/spaced/proprietary/odm/lib/libAncHumVideoBase.so:$(TARGET_COPY_OUT_ODM)/lib/libAncHumVideoBase.so \
-    vendor/realme/spaced/proprietary/odm/lib/libarcsoft_scbokeh_video.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_scbokeh_video.so \
     vendor/realme/spaced/proprietary/odm/lib/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib/libavcodec.so \
     vendor/realme/spaced/proprietary/odm/lib/libavformat.so:$(TARGET_COPY_OUT_ODM)/lib/libavformat.so \
     vendor/realme/spaced/proprietary/odm/lib/libavutil.so:$(TARGET_COPY_OUT_ODM)/lib/libavutil.so \
     vendor/realme/spaced/proprietary/odm/lib/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib/libdav1d.so.4 \
     vendor/realme/spaced/proprietary/odm/lib/libdpservice.so:$(TARGET_COPY_OUT_ODM)/lib/libdpservice.so \
     vendor/realme/spaced/proprietary/odm/lib/libffmpeg_omx.so:$(TARGET_COPY_OUT_ODM)/lib/libffmpeg_omx.so \
-    vendor/realme/spaced/proprietary/odm/lib/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G2.so \
-    vendor/realme/spaced/proprietary/odm/lib/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G3.so \
-    vendor/realme/spaced/proprietary/odm/lib/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G5.so \
-    vendor/realme/spaced/proprietary/odm/lib/libgf_hal_G6.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G6.so \
-    vendor/realme/spaced/proprietary/odm/lib/libgf_hal_G7.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G7.so \
     vendor/realme/spaced/proprietary/odm/lib/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib/libmpbase.so \
     vendor/realme/spaced/proprietary/odm/lib/libmxmafa.so:$(TARGET_COPY_OUT_ODM)/lib/libmxmafa.so \
     vendor/realme/spaced/proprietary/odm/lib/libnp-loader.so:$(TARGET_COPY_OUT_ODM)/lib/libnp-loader.so \
@@ -330,17 +316,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/odm/lib/libpnscr2.so:$(TARGET_COPY_OUT_ODM)/lib/libpnscr2.so \
     vendor/realme/spaced/proprietary/odm/lib/librpmbengclient.so:$(TARGET_COPY_OUT_ODM)/lib/librpmbengclient.so \
     vendor/realme/spaced/proprietary/odm/lib/libsi_sixth.so:$(TARGET_COPY_OUT_ODM)/lib/libsi_sixth.so \
-    vendor/realme/spaced/proprietary/odm/lib/libsl_fp_impl.so:$(TARGET_COPY_OUT_ODM)/lib/libsl_fp_impl.so \
     vendor/realme/spaced/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
     vendor/realme/spaced/proprietary/odm/lib/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib/libstblur_api.so \
     vendor/realme/spaced/proprietary/odm/lib/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib/libtfavib.so \
     vendor/realme/spaced/proprietary/odm/lib/libtflite_mtk_static.so:$(TARGET_COPY_OUT_ODM)/lib/libtflite_mtk_static.so \
     vendor/realme/spaced/proprietary/odm/lib/libtrustonic_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib/libtrustonic_keybox_ca.so \
     vendor/realme/spaced/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
-    vendor/realme/spaced/proprietary/odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/realme/spaced/proprietary/odm/lib/vendor.oplus.hardware.charger@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.charger@1.0.so \
-    vendor/realme/spaced/proprietary/odm/lib/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.commondcs@1.0.so \
-    vendor/realme/spaced/proprietary/odm/lib/vendor.oplus.hardware.engcamera@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.engcamera@1.0.so \
     vendor/realme/spaced/proprietary/odm/lib/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.ims@1.0.so \
     vendor/realme/spaced/proprietary/odm/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so \
     vendor/realme/spaced/proprietary/odm/lib/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.oplusSensor@1.0.so \
@@ -492,6 +474,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/realme/spaced/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
     vendor/realme/spaced/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
+    vendor/realme/spaced/proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-service.mediatek \
     vendor/realme/spaced/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
     vendor/realme/spaced/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service.trustonic \
     vendor/realme/spaced/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
@@ -506,7 +489,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor/realme/spaced/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service \
     vendor/realme/spaced/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.6-service \
-    vendor/realme/spaced/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service \
     vendor/realme/spaced/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
     vendor/realme/spaced/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
     vendor/realme/spaced/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
@@ -701,6 +683,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Vodafone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Vodafone.xml \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
+    vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
@@ -722,6 +705,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
+    vendor/realme/spaced/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/init.md_apps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.md_apps.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
@@ -752,8 +736,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
-    vendor/realme/spaced/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
-    vendor/realme/spaced/proprietary/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
@@ -761,9 +743,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/realme/spaced/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/realme/spaced/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
-    vendor/realme/spaced/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
-    vendor/realme/spaced/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
-    vendor/realme/spaced/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
     vendor/realme/spaced/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/realme/spaced/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/realme/spaced/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
@@ -839,14 +818,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
     vendor/realme/spaced/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/realme/spaced/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
-    vendor/realme/spaced/proprietary/vendor/lib/gc02m1bsy_mipi_raw_21690_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1bsy_mipi_raw_21690_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/gc02m1bsy_mipi_raw_21690_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1bsy_mipi_raw_21690_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/gc02m1hlt_mipi_raw_21690_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1hlt_mipi_raw_21690_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/gc02m1hlt_mipi_raw_21690_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1hlt_mipi_raw_21690_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/gc02m1shine_mipi_raw_21690_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1shine_mipi_raw_21690_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/gc02m1shine_mipi_raw_21690_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1shine_mipi_raw_21690_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/hi1634q_mipi_raw_21690_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/hi1634q_mipi_raw_21690_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/hi1634q_mipi_raw_21690_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/hi1634q_mipi_raw_21690_tuning.so \
     vendor/realme/spaced/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/realme/spaced/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/realme/spaced/proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@2.0-impl.so \
@@ -859,531 +830,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
     vendor/realme/spaced/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/realme/spaced/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
-    vendor/realme/spaced/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
-    vendor/realme/spaced/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
-    vendor/realme/spaced/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so \
-    vendor/realme/spaced/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so \
     vendor/realme/spaced/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/realme/spaced/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
-    vendor/realme/spaced/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so \
     vendor/realme/spaced/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/realme/spaced/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
     vendor/realme/spaced/proprietary/vendor/lib/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mali.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx350_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx350_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx350_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx350_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx386_mipi_mono_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx386_mipi_mono_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx386_mipi_mono_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx386_mipi_mono_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx386_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx386_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx386_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx386_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx398_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx398_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx398_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx398_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx481_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx481_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx481_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx481_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx499_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx499_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx499_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx499_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx519_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx519_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx519_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx519_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx586_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx586_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/imx586_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx586_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.core.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.ae.stat.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.stat.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.af.assist.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.assist.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.af.assist.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.assist.utils.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.core.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.alsflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.alsflicker.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.awb.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.awb.core.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.ccudrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ccudrv.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.ccuif.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ccuif.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.custom.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.custom.ae.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.dce.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.dce.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.flicker.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.gma.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.gma.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.lce.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.lce.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.log.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.n3d3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.n3d3a.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.sensors.color.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.sensors.color.so \
-    vendor/realme/spaced/proprietary/vendor/lib/lib3a.sensors.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.sensors.flicker.so \
     vendor/realme/spaced/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1bsymipiraw21690_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1bsymipiraw21690_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1hltmipiraw21690_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1hltmipiraw21690_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_gc02m1shinemipiraw21690_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1shinemipiraw21690_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_3HDR_Preivew.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_3HDR_Preivew.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_3rd_Capture_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_3rd_Capture_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_3rd_Capture_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_3rd_Capture_480P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_3rd_Capture_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_3rd_Capture_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_3rd_Capture_Other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_3rd_Capture_Other.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_3rd_Preview_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_3rd_Preview_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_3rd_Preview_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_3rd_Preview_480P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_3rd_Preview_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_3rd_Preview_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_3rd_Preview_Other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_3rd_Preview_Other.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_FaceBeauty_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_FaceBeauty_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_FaceBeauty_Capture_Bining.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_FaceBeauty_Capture_Bining.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_FaceBeauty_Capture_NoFace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_FaceBeauty_Capture_NoFace.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_FaceBeauty_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_FaceBeauty_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_ITS_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_ITS_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_Panorama.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_Production_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_Production_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_Scene_Capture_Bining.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_Scene_Capture_Bining.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_SuperNight_Hand_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_SuperNight_Hand_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_SuperNight_Hand_Capture_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_SuperNight_Hand_Capture_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_Video_Recording_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_Video_Recording_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_Video_Recording_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_Video_Recording_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Capture_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Capture_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Capture_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Capture_480P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Capture_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Capture_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Preview_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Preview_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Preview_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Preview_480P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Preview_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_WeChatQQ_Preview_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_YUVHDR_Capture_Binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_YUVHDR_Capture_Binning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_YUVHDR_FaceBeauty_Capture_Binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_YUVHDR_FaceBeauty_Capture_Binning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_YUVHDR_FaceBeauty_Capture_Binning_NoFace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_YUVHDR_FaceBeauty_Capture_Binning_NoFace.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_portrait_capture_Blurless.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_portrait_capture_Blurless.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_portrait_capture_Blurless_After.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_portrait_capture_Blurless_After.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_portrait_capture_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_portrait_capture_full.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_portrait_capture_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_portrait_capture_hdr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_portrait_preview_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_portrait_preview_full.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_hi1634qmipiraw21690_zHDR_Capture_Binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi1634qmipiraw21690_zHDR_Capture_Binning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx350mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx350mipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipimono_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipimono_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx386mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx386mipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx398mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx398mipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx481mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx481mipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx499mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx499mipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx519mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx519mipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_Video_1080_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Video_1080_60.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_imx586mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_imx586mipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov02b1bmipimono21690_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bmipimono21690_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov48bmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov48bmipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_ov64b40mipiraw21690_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov64b40mipiraw21690_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2l7mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2l7mipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k2t7spmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k2t7spmipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3m5sxmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3m5sxmipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_3HDR_Preivew.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_3HDR_Preivew.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_3rd_Capture_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_3rd_Capture_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_3rd_Capture_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_3rd_Capture_480P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_3rd_Capture_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_3rd_Capture_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_3rd_Capture_Other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_3rd_Capture_Other.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_3rd_Preview_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_3rd_Preview_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_3rd_Preview_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_3rd_Preview_480P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_3rd_Preview_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_3rd_Preview_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_3rd_Preview_Other.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_3rd_Preview_Other.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_FaceBeauty_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_FaceBeauty_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_FaceBeauty_Capture_Bining.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_FaceBeauty_Capture_Bining.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_FaceBeauty_Capture_NoFace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_FaceBeauty_Capture_NoFace.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_FaceBeauty_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_FaceBeauty_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_ITS_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_ITS_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_Panorama.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_Production_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_Production_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_Scene_Capture_Bining.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_Scene_Capture_Bining.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_SuperNight_Hand_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_SuperNight_Hand_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_SuperNight_Hand_Capture_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_SuperNight_Hand_Capture_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_Video_Recording_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_Video_Recording_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_Video_Recording_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_Video_Recording_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Capture_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Capture_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Capture_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Capture_480P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Capture_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Capture_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Preview_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Preview_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Preview_480P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Preview_480P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Preview_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_WeChatQQ_Preview_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_YUVHDR_Capture_Binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_YUVHDR_Capture_Binning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_YUVHDR_FaceBeauty_Capture_Binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_YUVHDR_FaceBeauty_Capture_Binning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_YUVHDR_FaceBeauty_Capture_Binning_NoFace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_YUVHDR_FaceBeauty_Capture_Binning_NoFace.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_portrait_capture_Blurless.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_portrait_capture_Blurless.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_portrait_capture_Blurless_After.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_portrait_capture_Blurless_After.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_portrait_capture_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_portrait_capture_full.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_portrait_capture_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_portrait_capture_hdr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_portrait_preview_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_portrait_preview_full.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw21690_zHDR_Capture_Binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw21690_zHDR_Capture_Binning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_Scene_Preview_ZSD_Flash.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5k3p9spmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5k3p9spmipiraw_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_3rd_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_3rd_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_3rd_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_3rd_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_3rd_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_50M_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_50M_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_50M_Capture_Face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_50M_Capture_Face.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_CoupleHDR_EV_single.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_CoupleHDR_EV_single.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_CoupleHDR_EV_single_Face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_CoupleHDR_EV_single_Face.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_E2EHDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_E2EHDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Face_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Face_Preview_Zoom2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Face_Preview_Zoom2x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Face_Preview_Zoom4x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Face_Preview_Zoom4x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Flash_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Flash_Capture_Face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Flash_Capture_Face.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_HDR_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_HDR_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_HDR_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_HDR_single.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_HDR_single.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_HDR_single_Face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_HDR_single_Face.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_ITS_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_ITS_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_N3D_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_N3D_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_N3D_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_P1_YUV.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Panorama_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Panorama_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Portrait_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Portrait_capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Portrait_capture_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Portrait_capture_hdr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Production_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Production_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Professional_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Professional_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Professional_Capture_Face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Professional_Capture_Face.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Remosaic_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Remosaic_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Scece_Capture_Food.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Scece_Capture_Food.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Scece_Capture_Grass.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Scece_Capture_Grass.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Scene_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Scene_Capture_4cell.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview_4k_Zoom2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview_4k_Zoom2x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview_4k_Zoom4x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview_4k_Zoom4x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview_Zoom2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview_Zoom2x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview_Zoom4x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Scene_Preview_Zoom4x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_SlowMotion_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_SlowMotion_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_SlowMotion_1080P_Zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_SlowMotion_1080P_Zoom.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_SlowMotion_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_SlowMotion_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_SlowMotion_720P_Zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_SlowMotion_720P_Zoom.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture_Face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture_Face.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture_Face_Zoom2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture_Face_Zoom2x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture_Face_Zoom4x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture_Face_Zoom4x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture_Zoom2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture_Zoom2x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture_Zoom4x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_SuperNight_Hand_Capture_Zoom4x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_1080.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_1080P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_1080P_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_1080P_60fps.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_1080P_60fps_Zoom2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_1080P_60fps_Zoom2x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_1080P_60fps_Zoom4x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_1080P_60fps_Zoom4x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_1080P_Zoom2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_1080P_Zoom2x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_1080P_Zoom4x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_1080P_Zoom4x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_4k.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_4k_Zoom2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_4k_Zoom2x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_4k_Zoom4x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_4k_Zoom4x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_720P.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_720P_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_720P_60fps.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_720P_60fps_Zoom2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_720P_60fps_Zoom2x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_720P_60fps_Zoom4x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_720P_60fps_Zoom4x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_720P_Zoom2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_720P_Zoom2x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Video_720P_Zoom4x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Video_720P_Zoom4x.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_WechatQQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_WechatQQ_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_WechatQQ_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_WechatQQ_Preview.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_WechatQQ_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_WechatQQ_Video.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_YUV_Reprocess_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_YUV_Reprocess_Capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libCamera_s5kjn1mipiraw21690_Zoom_Capture2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1mipiraw21690_Zoom_Capture2.so \
     vendor/realme/spaced/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/realme/spaced/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/realme/spaced/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
@@ -1398,32 +850,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
     vendor/realme/spaced/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/realme/spaced/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSQLiteModule_VER_ALL.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibrary.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibraryWrapper.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libSonyIMX338PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibrary.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libSonyIMX338PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibraryWrapper.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibrary.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libSonyIMX386PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibraryWrapper.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libSonyIMX519PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibrary.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibraryWrapper.so \
     vendor/realme/spaced/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
     vendor/realme/spaced/proprietary/vendor/lib/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bsscore.so \
     vendor/realme/spaced/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
     vendor/realme/spaced/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libaaa_ltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaaa_ltm.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libaaa_ltmx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaaa_ltmx.so \
     vendor/realme/spaced/proprietary/vendor/lib/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_cust.so \
     vendor/realme/spaced/proprietary/vendor/lib/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_key.so \
     vendor/realme/spaced/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
     vendor/realme/spaced/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     vendor/realme/spaced/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/realme/spaced/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libaiawb_moon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_moon.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libaiawb_moon_model.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_moon_model.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libaiawb_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_p1ggm.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libaiawb_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_sun.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libaiawb_sun_model.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiawb_sun_model.so \
     vendor/realme/spaced/proprietary/vendor/lib/libakm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libakm.so \
     vendor/realme/spaced/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/realme/spaced/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
@@ -1433,9 +869,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys_edma.so \
     vendor/realme/spaced/proprietary/vendor/lib/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn.so \
     vendor/realme/spaced/proprietary/vendor/lib/libarmnn_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn_ndk.mtk.vndk.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_core.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mapi.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mdmi.so \
     vendor/realme/spaced/proprietary/vendor/lib/libaudio_engineer_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_engineer_test.so \
     vendor/realme/spaced/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
     vendor/realme/spaced/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
@@ -1452,75 +885,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
     vendor/realme/spaced/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
     vendor/realme/spaced/proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_hw_test.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk_pure.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_relayer.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/realme/spaced/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.afhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.afhal.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.feature_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.feature_utils.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.hal3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.log.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.hal3a.v3.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.ae.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.hal3a.v3.ai3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.ai3a.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.hal3a.v3.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.awb.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.hal3a.v3.fsmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.fsmgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.hal3a.v3.lscMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.lscMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.hal3a.v3.lsctbl.50.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.lsctbl.50.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.hal3a.v3.nvram.50.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.nvram.50.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.hal3a.v3.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.platform.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.hal3a.v3.resultpool.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.resultpool.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.hal3a.v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.halisp.buf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halisp.buf.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.halsensor.hwintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.hwintegration.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcam.halsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.iopipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.iopipe.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.isptuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.isptuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.pdtblgen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.pdtblgen.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.seninfn3d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.seninfn3d.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.tuning.cache.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.tuning.cache.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcam.utils.sensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.sensorprovider.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.vhdr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.3dnr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.dngop.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.eis.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fdft.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fsc.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.gyro.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.ispfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.ispfeature.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.lmv.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.lsc.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.mfnr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.nr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.nr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.platform.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.platform2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.platform2.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.utility.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamalgo.warp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.warp.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamdrv_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_imem.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamdrv_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_isp.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamdrv_tuning_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_tuning_mgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamdrv_twin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_twin.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamera.custom.pd_buf_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera.custom.pd_buf_mgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamera.customae.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera.customae.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamera.customaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera.customaf.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamera.customawb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera.customawb.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamera.customflk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera.customflk.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera2ndk_vendor.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcamera_core_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_core_hwi.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcameracustom.camera.3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.camera.3a.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcameracustom.camera.isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.camera.isp.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcameracustom.camera.sensors.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.camera.sensors.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcameracustom.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.eis.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcameracustom.flashlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.flashlight.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcameracustom.lens.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.lens.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
     vendor/realme/spaced/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcharon-ss.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libchromanr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromanr.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcmdl_ndk.mtk.vndk.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_c2store.so \
@@ -1538,23 +910,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/libcrypto-md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcrypto-md.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcurl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl-md.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcustomer_cameradata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustomer_cameradata.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libcustomer_testvision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustomer_testvision.so \
     vendor/realme/spaced/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
     vendor/realme/spaced/proprietary/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libdip_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_drv.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libdip_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_imem.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libdip_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_postproc.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdre.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffecthal.base.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.face.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.stereo.provider.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libfeature_3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_3dnr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libfeature_eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_eis.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libfeature_fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_fsc.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libfeature_lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_lmv.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_rss.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeatureiodrv_mem.so \
     vendor/realme/spaced/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/realme/spaced/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
     vendor/realme/spaced/proprietary/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
@@ -1579,7 +936,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
     vendor/realme/spaced/proprietary/vendor/lib/libhydra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhydra.so \
     vendor/realme/spaced/proprietary/vendor/lib/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicd_decoder.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libimagebuffer_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimagebuffer_wrapper.so \
     vendor/realme/spaced/proprietary/vendor/lib/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio.so \
     vendor/realme/spaced/proprietary/vendor/lib/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_drv.so \
     vendor/realme/spaced/proprietary/vendor/lib/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_pipe.so \
@@ -1598,7 +954,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/libktvvolume.so:$(TARGET_COPY_OUT_VENDOR)/lib/libktvvolume.so \
     vendor/realme/spaced/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
     vendor/realme/spaced/proprietary/vendor/lib/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblpcnr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libm4u.so:$(TARGET_COPY_OUT_VENDOR)/lib/libm4u.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfllcore.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
@@ -1610,49 +965,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsnr.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.atmseventmgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.eventcallback.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam.featurepipe.capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.capture.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam.featurepipe.streaming.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.streaming.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam.featurepipe.vsdof_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.vsdof_util.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam.logicalmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.logicalmodule.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_3rdparty.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.core.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_3rdparty.customer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.customer.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_3rdparty.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.mtk.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_3rdparty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_3rdparty.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_calibration_convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_calibration_convertor.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_calibration_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_calibration_provider.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_diputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_diputils.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_exif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_exif.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_fdvt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_fdvt.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_grallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_grallocutils.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_hwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_hwnode.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_hwutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_hwutils.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_imgbuf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_imgbuf.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_mapping_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_mapping_mgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metadata.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_metastore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metastore.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_mfb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_mfb.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulehelper.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_pipeline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipeline.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_pipeline_fbm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipeline_fbm.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_pipelinemodel_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipelinemodel_isp.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_prerelease.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_prerelease.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_rsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_rsc.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_scenariorecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_scenariorecorder.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_stdutils.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_streamutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_streamutils.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_synchelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_synchelper.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_sysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_sysutils.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_tuning_utils.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_ulog.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkisp_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkisp_metadata.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtknetutils.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkperf_client_vendor.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkproperty.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkrillog.so \
     vendor/realme/spaced/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
@@ -1663,18 +979,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnir_neon_driver_ndk.mtk.vndk.so \
     vendor/realme/spaced/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/realme/spaced/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libocam_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libocam_common.so \
-    vendor/realme/spaced/proprietary/vendor/lib/liboplus.aishutter.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus.aishutter.so \
     vendor/realme/spaced/proprietary/vendor/lib/liboplus_audio_config.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus_audio_config.so \
-    vendor/realme/spaced/proprietary/vendor/lib/liboplus_mtkcam_lightsensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus_mtkcam_lightsensorprovider.so \
-    vendor/realme/spaced/proprietary/vendor/lib/liboplus_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus_platform_hwi.so \
     vendor/realme/spaced/proprietary/vendor/lib/liboppo_arcSoftBokehEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboppo_arcSoftBokehEngine.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
     vendor/realme/spaced/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower_timer.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
     vendor/realme/spaced/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
     vendor/realme/spaced/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
     vendor/realme/spaced/proprietary/vendor/lib/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqparamparser.so \
@@ -1691,7 +998,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
     vendor/realme/spaced/proprietary/vendor/lib/libssl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssl-md.so \
     vendor/realme/spaced/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
-    vendor/realme/spaced/proprietary/vendor/lib/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstereoinfoaccessor_vsdof.so \
     vendor/realme/spaced/proprietary/vendor/lib/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstrongswan.so \
     vendor/realme/spaced/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/realme/spaced/proprietary/vendor/lib/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_mtk.so \
@@ -1729,34 +1035,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/mt6781/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6781/libmtk_drvb.so \
     vendor/realme/spaced/proprietary/vendor/lib/mt6781/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6781/libnir_neon_driver.so \
     vendor/realme/spaced/proprietary/vendor/lib/mt6781/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6781/libpq_prot.so \
-    vendor/realme/spaced/proprietary/vendor/lib/ov02b1b_mipi_mono_21690_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b1b_mipi_mono_21690_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/ov02b1b_mipi_mono_21690_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov02b1b_mipi_mono_21690_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/ov48b_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov48b_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/ov48b_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov48b_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/ov64b40_mipi_raw_21690_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b40_mipi_raw_21690_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/ov64b40_mipi_raw_21690_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov64b40_mipi_raw_21690_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5k2l7_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2l7_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5k2l7_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2l7_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5k2t7sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2t7sp_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5k2t7sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k2t7sp_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5k3m5sx_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3m5sx_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5k3m5sx_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3m5sx_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5k3p9sp_mipi_raw_21690_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3p9sp_mipi_raw_21690_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5k3p9sp_mipi_raw_21690_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3p9sp_mipi_raw_21690_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5k3p9sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3p9sp_mipi_raw_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5k3p9sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5k3p9sp_mipi_raw_tuning.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5kjn1_mipi_raw_21690_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kjn1_mipi_raw_21690_IdxMgr.so \
-    vendor/realme/spaced/proprietary/vendor/lib/s5kjn1_mipi_raw_21690_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kjn1_mipi_raw_21690_tuning.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
-    vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
-    vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so \
-    vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so \
-    vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.camera.isphal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.isphal@1.0.so \
-    vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.postproc@1.0.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mdmonitor@1.0.so \
@@ -1770,8 +1053,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.netdagent@1.0.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
-    vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@1.1.so \
-    vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@2.0.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.1.so \
     vendor/realme/spaced/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.10.so \
@@ -1810,6 +1091,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib64/hi1634q_mipi_raw_21690_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hi1634q_mipi_raw_21690_tuning.so \
     vendor/realme/spaced/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
     vendor/realme/spaced/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
+    vendor/realme/spaced/proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-impl-mediatek.so \
+    vendor/realme/spaced/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
     vendor/realme/spaced/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/realme/spaced/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/realme/spaced/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
@@ -1832,7 +1115,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so \
     vendor/realme/spaced/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/realme/spaced/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
-    vendor/realme/spaced/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so \
     vendor/realme/spaced/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/realme/spaced/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
     vendor/realme/spaced/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
@@ -2656,7 +1938,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib64/libmtkmipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkmipc-ril.so \
     vendor/realme/spaced/proprietary/vendor/lib64/libmtknetcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetcap.so \
     vendor/realme/spaced/proprietary/vendor/lib64/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetutils.so \
-    vendor/realme/spaced/proprietary/vendor/lib64/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkperf_client_vendor.so \
     vendor/realme/spaced/proprietary/vendor/lib64/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkproperty.so \
     vendor/realme/spaced/proprietary/vendor/lib64/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrillog.so \
     vendor/realme/spaced/proprietary/vendor/lib64/libmtkrilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrilutils.so \
@@ -2679,11 +1960,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib64/liboplus_mtkcam_lightsensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboplus_mtkcam_lightsensorprovider.so \
     vendor/realme/spaced/proprietary/vendor/lib64/liboplus_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboplus_platform_hwi.so \
     vendor/realme/spaced/proprietary/vendor/lib64/liboppo_arcSoftBokehEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_arcSoftBokehEngine.so \
-    vendor/realme/spaced/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
     vendor/realme/spaced/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
-    vendor/realme/spaced/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
-    vendor/realme/spaced/proprietary/vendor/lib64/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal.so \
-    vendor/realme/spaced/proprietary/vendor/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
     vendor/realme/spaced/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
     vendor/realme/spaced/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
     vendor/realme/spaced/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
@@ -2795,8 +2072,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.netdagent@1.0.so \
     vendor/realme/spaced/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/realme/spaced/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.1.so \
-    vendor/realme/spaced/proprietary/vendor/lib64/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@1.1.so \
-    vendor/realme/spaced/proprietary/vendor/lib64/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@2.0.so \
     vendor/realme/spaced/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.0.so \
     vendor/realme/spaced/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.1.so \
     vendor/realme/spaced/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.10.so \
@@ -2820,6 +2095,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so
 
 PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.power@1.1 \
+    vendor.mediatek.hardware.power@2.0 \
     EngineerMode \
     ImsService \
     HotwordEnrollmentOKGoogleCORTEXM4 \
@@ -2834,6 +2111,8 @@ PRODUCT_PACKAGES += \
     com.android.hotwordenrollment.common.util \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
     android.hardware.usb@1.2-service-mediatekv2 \
+    gnss-mtk \
+    gnss@2.1-service-mtk \
     lbs_hidl_service@1.0 \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_hwcomposer \
