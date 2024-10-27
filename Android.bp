@@ -8,6 +8,24 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "android.hardware.camera.provider@2.6-impl-mediatek",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "vendor.mediatek.hardware.power@1.1",
 	owner: "realme",
 	strip: {
@@ -131,7 +149,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu",
+	name: "android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml",
 	filename_from_src: true,
@@ -140,7 +158,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.usb@1.2-service-mediatekv2",
+	name: "android.hardware.usb@1.2-service-mediatekv2.xml",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml",
 	filename_from_src: true,
@@ -149,7 +167,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "lbs_hidl_service@1.0",
+	name: "lbs_hidl_service@1.0.xml",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
 	filename_from_src: true,
@@ -158,7 +176,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.widevine",
+	name: "manifest_android.hardware.drm@1.4-service.widevine.xml",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
 	filename_from_src: true,
@@ -167,7 +185,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_hwcomposer",
+	name: "manifest_hwcomposer.xml",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml",
 	filename_from_src: true,
@@ -176,7 +194,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_media_c2_V1_2_default",
+	name: "manifest_media_c2_V1_2_default.xml",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml",
 	filename_from_src: true,
@@ -185,7 +203,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplusSensor",
+	name: "manifest_oplusSensor.xml",
 	owner: "realme",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplusSensor.xml",
 	filename_from_src: true,
@@ -194,7 +212,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_charger",
+	name: "manifest_oplus_charger.xml",
 	owner: "realme",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_charger.xml",
 	filename_from_src: true,
@@ -203,7 +221,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_fingerprint",
+	name: "manifest_oplus_fingerprint.xml",
 	owner: "realme",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml",
 	filename_from_src: true,
@@ -212,7 +230,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "ormsHalService-default",
+	name: "ormsHalService-default.xml",
 	owner: "realme",
 	src: "proprietary/odm/etc/vintf/manifest/ormsHalService-default.xml",
 	filename_from_src: true,
