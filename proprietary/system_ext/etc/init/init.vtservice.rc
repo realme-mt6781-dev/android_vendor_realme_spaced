@@ -9,7 +9,7 @@ service vtservice /system_ext/bin/vtservice
     disabled
 
 on property:persist.vendor.vilte_support=1
-    start vtservice
+    enable vtservice
 
 on property:persist.vendor.viwifi_support=1
-    start vtservice
+    enable vtservice
