@@ -14748,23 +14748,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib_bsscore",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/lib_bsscore.so"],
-			shared_libs: ["libhwconfigurationutil", "liblog", "libutils", "libcutils", "libladder", "libnativewindow", "libmtkcam_modulehelper", "libmtkcam_stdutils", "libmtkcam_imgbuf", "libmtkcam_ulog", "libcam.iopipe", "libdpframework", "libgralloc_extra", "libcameracustom", "libmtkcam_tuning_utils", "libmtkcam_metadata", "libmtkcam_scenariorecorder", "libcamalgo.dngop", "libmtkcam_debugutils", "lib3a.ae.core", "lib3a.af.core", "lib3a.flash", "libmtkcam_hwutils", "libmfllcore", "libcamalgo.mfnr", "libcamalgo.fdft", "libmtkcam_exif", "libmtkcam_mapping_mgr", "libfeature.stereo.provider", "lib3a.awb.core", "libaedv", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libaaa_ltm",
 	owner: "realme",
 	strip: {
@@ -18966,23 +18949,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.radio-V1-ndk_platform",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so"],
-			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libneuron_graph_delegate.mtk",
 	owner: "realme",
 	strip: {
@@ -19487,27 +19453,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "liboplus_platform_hwi",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/liboplus_platform_hwi.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libhardware", "libcamera_metadata", "libcamera_core_hwi", "libocam_common", "libmtkcam_stdutils", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/liboplus_platform_hwi.so"],
-			shared_libs: ["libutils", "libcutils", "liblog", "libhardware", "libcamera_metadata", "libcamera_core_hwi", "libocam_common", "libmtkcam_stdutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libormshalclient",
 	owner: "realme",
 	strip: {
@@ -19940,27 +19885,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so"],
-			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.radio-V1-ndk_platform",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so"],
-			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so"],
 			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
 		},
 	},

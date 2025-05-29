@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/spaced
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/spaced/proprietary/W#:$(TARGET_COPY_OUT_SYSTEM)/W# \
     vendor/realme/spaced/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
     vendor/realme/spaced/proprietary/odm/etc/audio/audio_device/common/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/common/audio_device.xml \
     vendor/realme/spaced/proprietary/odm/etc/audio/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/AudioParamOptions.xml \
@@ -1413,7 +1414,6 @@ PRODUCT_PACKAGES += \
     libSonyIMX386PdafLibraryWrapper \
     libSonyIMX519PdafLibrary \
     libSonyIMX519PdafLibraryWrapper \
-    lib_bsscore \
     libaaa_ltm \
     libaaa_ltmx \
     libacdk \
@@ -1661,7 +1661,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.videotelephony@1.0_vendor \
     vendor.oplus.hardware.cameraextension@1.0 \
     vendor.oplus.hardware.cammidasservice@1.0 \
-    vendor.oplus.hardware.radio-V1-ndk_platform \
     libneuron_graph_delegate.mtk \
     libcomutils \
     libimsma \
@@ -1689,7 +1688,6 @@ PRODUCT_PACKAGES += \
     libnxprecord \
     libnxpspeech \
     liboemcrypto \
-    liboplus_platform_hwi \
     libormshalclient \
     libosenseaidlhalclient \
     libosensehalclient \
@@ -1711,7 +1709,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.osense.client-V1-ndk_platform \
     vendor.oplus.hardware.osense.client@1.0 \
     vendor.oplus.hardware.performance-V1-ndk_platform \
-    vendor.oplus.hardware.radio-V1-ndk_platform \
     libffmpeg_omx \
     libnp-loader \
     libpn553_fw \
