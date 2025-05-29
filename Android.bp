@@ -14748,6 +14748,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "lib_bsscore",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/lib_bsscore.so"],
+			shared_libs: ["libhwconfigurationutil", "liblog", "libutils", "libcutils", "libladder", "libnativewindow", "libmtkcam_modulehelper", "libmtkcam_stdutils", "libmtkcam_imgbuf", "libmtkcam_ulog", "libcam.iopipe", "libdpframework", "libgralloc_extra", "libcameracustom", "libmtkcam_tuning_utils", "libmtkcam_metadata", "libmtkcam_scenariorecorder", "libcamalgo.dngop", "libmtkcam_debugutils", "lib3a.ae.core", "lib3a.af.core", "lib3a.flash", "libmtkcam_hwutils", "libmfllcore", "libcamalgo.mfnr", "libcamalgo.fdft", "libmtkcam_exif", "libmtkcam_mapping_mgr", "libfeature.stereo.provider", "lib3a.awb.core", "libaedv", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libaaa_ltm",
 	owner: "realme",
 	strip: {
@@ -18046,6 +18063,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libwifitest",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libwifitest.so"],
+			shared_libs: ["libcutils", "libnvram", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libwpfa",
 	owner: "realme",
 	strip: {
@@ -19225,27 +19259,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libAlgoProcess",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libAlgoProcess.so"],
-			shared_libs: ["libmtkisp_metadata", "vendor.mediatek.hardware.camera.isphal@1.0", "libgralloc_extra", "libosensehalclient", "vendor.oplus.hardware.osense.client@1.0", "libion", "libapsjpeg", "libapsexif", "liblog", "libcutils", "libutils", "libutilscallstack", "libmpbase", "libGLESv3", "libEGL", "libnativewindow", "libhidlbase", "libselinux", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libAlgoProcess.so"],
-			shared_libs: ["libmtkisp_metadata", "vendor.mediatek.hardware.camera.isphal@1.0", "libgralloc_extra", "libosensehalclient", "vendor.oplus.hardware.osense.client@1.0", "libion", "libapsjpeg", "libapsexif", "liblog", "libcutils", "libutils", "libutilscallstack", "libmpbase", "libGLESv3", "libEGL", "libnativewindow", "libhidlbase", "libselinux", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libAncHumBokeh",
 	owner: "realme",
 	strip: {
@@ -19759,3 +19772,2371 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.mtkmodemaci@1.0",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.oplusSensor@1.0",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.oplusSensor@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.orms.ormsHalService@1.0",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.orms@1.0",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.orms@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.ormsHalService-V1-ndk_platform",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.ormsHalService-V1-ndk_platform.so"],
+			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.ormsHalService-V1-ndk_platform.so"],
+			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.osense.client-V1-ndk_platform",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.osense.client-V1-ndk_platform.so"],
+			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so"],
+			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.osense.client@1.0",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.osense.client@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.performance-V1-ndk_platform",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so"],
+			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so"],
+			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.radio-V1-ndk_platform",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so"],
+			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so"],
+			shared_libs: ["libbinder_ndk", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libffmpeg_omx",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/libffmpeg_omx.so"],
+			shared_libs: ["libutils", "libcutils", "libavcodec", "libavformat", "libavutil", "libswresample", "libswscale", "libstagefright_foundation", "libstagefright_omx", "libstagefright_softomx", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libnp-loader",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/libnp-loader.so"],
+			shared_libs: ["liblog", "libm", "libdl", "libc", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libpn553_fw",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib/libpn553_fw.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libpn557_fw",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib/libpn557_fw.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsn100u_fw",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib/libsn100u_fw.so"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "anc.capacitive.hal",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/anc.capacitive.hal.so"],
+			shared_libs: ["libcutils", "libutils", "liblog", "libMcClient", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "anc.hal",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/anc.hal.so"],
+			shared_libs: ["libcutils", "libutils", "liblog", "libMcClient", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "fingerprint.focaltech.default",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/hw/fingerprint.focaltech.default.so"],
+			shared_libs: ["libMcClient", "liblog", "libcutils", "libutils", "libbinder", "libbase", "libc++", "libcrypto", "libz", "libprocessgroup", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "fingerprint.goodix_G2.default",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/hw/fingerprint.goodix_G2.default.so"],
+			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libbinder", "libutils", "libcutils", "liblog", "libhardware", "libion", "libgf_hal_G2", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "fingerprint.goodix_G3.default",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/hw/fingerprint.goodix_G3.default.so"],
+			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libbinder", "libutils", "libcutils", "liblog", "libhardware", "libion", "libgf_hal_G3", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "fingerprint.goodix_G5.default",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so"],
+			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libbinder", "libutils", "libcutils", "liblog", "libhardware", "libion", "libgf_hal_G5", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "fingerprint.goodix_G6.default",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so"],
+			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libbinder", "libutils", "libcutils", "liblog", "libhardware", "libion", "libgf_hal_G6", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "fingerprint.goodix_G7.default",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/hw/fingerprint.goodix_G7.default.so"],
+			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libbinder", "libutils", "libcutils", "liblog", "libhardware", "libion", "libgf_hal_G7", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "fingerprint.silead.default",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/hw/fingerprint.silead.default.so"],
+			shared_libs: ["liblog", "libutils", "libhardware", "libsl_fp_impl", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libarcsoft_dualcam_wt_calibration",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libarcsoft_dualcam_wt_calibration.so"],
+			shared_libs: ["libcalibverifyW_T", "libmpbase", "liblog", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libarcsoft_dualcam_wt_verification",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libarcsoft_dualcam_wt_verification.so"],
+			shared_libs: ["libcalibverifyW_T", "libmpbase", "liblog", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libarcsoft_scbokeh_video",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libarcsoft_scbokeh_video.so"],
+			shared_libs: ["libmpbase", "liblog", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libcalibverifyW_T",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libcalibverifyW_T.so"],
+			shared_libs: ["libz", "libdl", "libm", "liblog", "libc", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libegis_hal",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libegis_hal.so"],
+			shared_libs: ["liblog", "libutils", "libRbsFlow", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgf_hal_G2",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libgf_hal_G2.so"],
+			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libbinder", "libutils", "libcutils", "liblog", "libhardware", "libion", "libMcClient", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgf_hal_G3",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libgf_hal_G3.so"],
+			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libbinder", "libutils", "libcutils", "liblog", "libhardware", "libion", "libMcClient", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgf_hal_G5",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libgf_hal_G5.so"],
+			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libutils", "libcutils", "liblog", "libhardware", "libion", "libMcClient", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgf_hal_G6",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libgf_hal_G6.so"],
+			shared_libs: ["libhidlbase", "libhwbinder", "libhidltransport", "libutils", "libcutils", "liblog", "libhardware", "libion", "libMcClient", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgf_hal_G7",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libgf_hal_G7.so"],
+			shared_libs: ["libhidlbase", "libutils", "libcutils", "liblog", "libhardware", "libion", "libMcClient", "libdmabufheap", "libc", "libm", "libdl", "libc++", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libhwm-oplus_odm",
+	stem: "libhwm-oplus",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libhwm-oplus.so"],
+			shared_libs: ["liblog", "libfile_op", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libneuron_runtime",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libneuron_runtime.so"],
+			shared_libs: ["libdl", "liblog", "libz", "libneuron_platform", "libion", "libion_mtk", "libvpu", "libm", "libc", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libremosaic_wrapper_odm",
+	stem: "libremosaic_wrapper",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libremosaic_wrapper.so"],
+			shared_libs: ["liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libremosaiclib_odm",
+	stem: "libremosaiclib",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libremosaiclib.so"],
+			shared_libs: ["liblog", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsl_fp_impl",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libsl_fp_impl.so"],
+			shared_libs: ["libcutils", "liblog", "libutils", "libion", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "oplus.sensors.ssc",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/oplus.sensors.ssc.so"],
+			shared_libs: ["android.hardware.sensors@1.0", "android.hardware.sensors@2.0", "android.hardware.sensors@2.0-ScopedWakelock", "android.hardware.sensors@2.1", "libbase", "libutils", "libcutils", "libfmq", "libhardware", "libhidlbase", "liblog", "libpower", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.biometrics.fingerprint@2.1_odm",
+	stem: "vendor.oplus.hardware.biometrics.fingerprint@2.1",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so"],
+			shared_libs: ["android.hardware.biometrics.fingerprint@2.1", "android.hardware.biometrics.fingerprint@2.2", "android.hardware.biometrics.fingerprint@2.3", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.commondcs@1.0_odm",
+	stem: "vendor.oplus.hardware.commondcs@1.0",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.engcamera@1.0",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.engcamera@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	device_specific: true,
+}
+
+android_app_import {
+	name: "EngineerMode",
+	owner: "realme",
+	apk: "proprietary/priv-app/EngineerMode/EngineerMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "ImsService",
+	owner: "realme",
+	apk: "proprietary/priv-app/ImsService/ImsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "HotwordEnrollmentOKGoogleCORTEXM4",
+	owner: "realme",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+dex_import {
+	name: "mediatek-common",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-framework",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-framework.jar"],
+}
+
+dex_import {
+	name: "mediatek-gwsd",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-gwsd.jar"],
+}
+
+dex_import {
+	name: "mediatek-gwsdv2",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-gwsdv2.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-base",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-ims-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-common",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-ims-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-extension-plugin",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
+}
+
+dex_import {
+	name: "mediatek-telecom-common",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-telecom-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-base",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-telephony-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-common",
+	owner: "realme",
+	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
+}
+
+dex_import {
+	name: "com.android.hotwordenrollment.common.util",
+	owner: "realme",
+	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
+	system_ext_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml",
+	owner: "realme",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.usb@1.2-service-mediatekv2.xml",
+	owner: "realme",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "lbs_hidl_service@1.0.xml",
+	owner: "realme",
+	src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.drm@1.4-service.widevine.xml",
+	owner: "realme",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_hwcomposer.xml",
+	owner: "realme",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_media_c2_V1_2_default.xml",
+	owner: "realme",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc {
+	name: "gauge_authenticate",
+	owner: "realme",
+	src: "proprietary/odm/etc/bin/gauge_authenticate",
+	filename_from_src: true,
+	sub_dir: "bin",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_oplusSensor.xml",
+	owner: "realme",
+	src: "proprietary/odm/etc/vintf/manifest/manifest_oplusSensor.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_oplus_charger.xml",
+	owner: "realme",
+	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_charger.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_oplus_fingerprint.xml",
+	owner: "realme",
+	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "ormsHalService-default.xml",
+	owner: "realme",
+	src: "proprietary/odm/etc/vintf/manifest/ormsHalService-default.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	device_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "AgentTest",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/AgentTest"],
+			shared_libs: ["libion", "libion_mtk", "liblog", "libhardware", "libhidlbase", "libutils", "libcutils", "vendor.mediatek.hardware.mmagent@1.0", "vendor.mediatek.hardware.mmagent@1.1", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "atci_service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/atci_service"],
+			shared_libs: ["libcutils", "libutils", "liblog", "libhidlbase", "libhidlmemory", "android.hidl.allocator@1.0", "android.hidl.memory@1.0", "vendor.mediatek.hardware.camera.ccap@1.0", "vendor.mediatek.hardware.pq@2.0", "libnvram", "libdl", "libc++", "libc", "libm", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "atcid",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/atcid"],
+			shared_libs: ["libmtkcutils", "libmtkutils", "libmtkrillog", "libmtkproperty", "vendor.mediatek.hardware.atci@1.0", "libhidlbase", "libhidltransport", "libhwbinder", "libnvram", "libfile_op", "libmipc", "libtrm", "libwifitest", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "audiocmdservice_atci",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/audiocmdservice_atci"],
+			shared_libs: ["libcutils", "libutils", "libbinder", "liblog", "libaudiocompensationfilter_vendor", "libaudioprimarydevicehalifclient", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "autobt",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/autobt"],
+			shared_libs: ["liblog", "libcutils", "libbluetooth_hw_test", "libbluetooth_relayer", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "bip",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/bip"],
+			shared_libs: ["libcutils", "liblog", "libc", "libdl", "libm", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "ccci_mdinit",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/ccci_mdinit"],
+			shared_libs: ["libsysenv", "liblog", "libnvram", "libcutils", "libstorage_otp", "libhardware_legacy", "libccci_util", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "ccci_rpcd",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/ccci_rpcd"],
+			shared_libs: ["libc", "liblog", "libcutils", "libhardware_legacy", "libsysenv", "libccci_util", "libc++", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "charon",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/charon"],
+			shared_libs: ["libstrongswan", "libhydra", "libcharon-ss", "libc", "libm", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+sh_binary {
+	name: "chipinfo",
+	owner: "realme",
+	src: "proprietary/vendor/bin/chipinfo",
+	filename: "chipinfo",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "dmc_core",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/dmc_core"],
+			shared_libs: ["libtranslator_utils", "libicd_decoder", "vendor.mediatek.hardware.dmc@1.0", "vendor.mediatek.hardware.dmc@1.1", "vendor.mediatek.hardware.dmc@1.2", "vendor.mediatek.hardware.mdmonitor@1.0", "libutils", "libcutils", "libc++", "libhidlbase", "liblog", "vendor.mediatek.hardware.apmonitor@2.0", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "doeapp-sat",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/doeapp-sat"],
+			shared_libs: ["libaedv", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "dtc_vendor",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/dtc_vendor"],
+			shared_libs: ["libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "epdg_wod",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/epdg_wod"],
+			shared_libs: ["libcutils", "libwo", "libc", "libdl", "libm", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "fuelgauged",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/fuelgauged"],
+			shared_libs: ["libcutils", "libutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "fuelgauged_nvram",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/fuelgauged_nvram"],
+			shared_libs: ["libcutils", "libutils", "libnvram", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "gsm0710muxd",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/gsm0710muxd"],
+			shared_libs: ["libmtkcutils", "libmtkrillog", "libmtkproperty", "libaedv", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.bluetooth@1.1-service-mediatek",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek"],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "libhidltransport", "android.hardware.bluetooth@1.0", "android.hardware.bluetooth@1.1", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.drm@1.4-service.widevine",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine"],
+			shared_libs: ["android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hardware.drm@1.3", "libbase", "libhidlbase", "liblog", "libutils", "libbinder", "android.hardware.drm@1.4", "libwvhidl", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.graphics.allocator@4.0-service-mediatek",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek"],
+			shared_libs: ["android.hardware.graphics.allocator@4.0", "libhidlbase", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.keymaster@4.1-service.trustonic",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic"],
+			shared_libs: ["android.hardware.keymaster@4.0", "android.hardware.keymaster@4.1", "libbase", "libcutils", "libhardware", "libhidlbase", "libkeymaster4", "libkeymaster41", "liblog", "libutils", "libMcClient", "libcrypto", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.media.c2@1.2-mediatek",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek"],
+			shared_libs: ["libstagefright_foundation-v33", "libbase", "liblog", "libcodec2", "libutils", "android.hardware.media.c2@1.0", "android.hardware.media.c2@1.1", "android.hardware.media.c2@1.2", "libcodec2_hidl@1.0", "libcodec2_hidl@1.1", "libcodec2_hidl@1.2", "libcodec2_vndk", "libhidlbase", "libavservices_minijail", "libbinder", "libcodec2_mtk_c2store", "libcodec2_mtk_vdec", "libcodec2_mtk_venc", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.media.c2@1.2-mediatek-64b",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b"],
+			shared_libs: ["libstagefright_foundation-v33", "libbase", "liblog", "libcodec2", "libutils", "android.hardware.media.c2@1.0", "android.hardware.media.c2@1.1", "android.hardware.media.c2@1.2", "libcodec2_hidl@1.0", "libcodec2_hidl@1.1", "libcodec2_hidl@1.2", "libcodec2_vndk", "libhidlbase", "libavservices_minijail", "libbinder", "libcodec2_mtk_c2store", "libcodec2_mtk_vdec", "libcodec2_mtk_venc", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.neuralnetworks@1.3-service-mtk-neuron",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.secure_element@1.2-service-mediatek",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek"],
+			shared_libs: ["vendor.mediatek.hardware.mtkradioex@2.0", "libhidlbase", "libutils", "android.hardware.secure_element@1.0", "android.hardware.secure_element@1.1", "android.hardware.secure_element@1.2", "libcutils", "liblog", "android.hardware.radio@1.0", "android.hardware.radio@1.1", "android.hardware.radio@1.2", "android.hardware.radio@1.3", "android.hardware.radio@1.4", "vendor.mediatek.hardware.mtkradioex@3.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.thermal@2.0-service.mtk",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk"],
+			shared_libs: ["libc", "liblog", "libhardware", "libcutils", "libbase", "libhidlbase", "libutils", "android.hardware.thermal@2.0", "android.hardware.thermal@1.0", "libc++", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.usb@1.2-service-mediatekv2",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2"],
+			shared_libs: ["android.hardware.usb@1.0", "android.hardware.usb@1.1", "android.hardware.usb@1.2", "android.hardware.usb@1.3", "android.hardware.usb.gadget@1.0", "android.hardware.usb.gadget@1.1", "libbase", "libcutils", "libhardware", "libhidlbase", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "camerahalserver",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/camerahalserver"],
+			shared_libs: ["libudf", "liblog", "libutils", "libcutils", "libbinder", "libhwbinder", "libhidlbase", "libhidltransport", "libmtkcam_stdutils", "libmtkcam_ulog", "libmtkcam_scenariorecorder", "libmtkcam_modulehelper", "android.hardware.camera.provider@2.4", "android.hardware.camera.provider@2.5", "android.hardware.camera.provider@2.6", "vendor.mediatek.hardware.camera.frhandler@1.0", "vendor.mediatek.hardware.camera.postproc@1.0", "vendor.mediatek.hardware.camera.isphal@1.0", "vendor.mediatek.hardware.camera.isphal@1.1", "vendor.mediatek.hardware.camera.bgservice@1.0", "vendor.mediatek.hardware.camera.bgservice@1.1", "libhardware", "libmtkcam_grallocutils", "vendor.mediatek.hardware.camera.atms@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "mtkfusionrild",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/mtkfusionrild"],
+			shared_libs: ["libmtkrillog", "libmtkproperty", "libmtkcutils", "librilfusion", "libmtkrilutils", "libsysenv", "libmtkconfigutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "tetheroffloadservice",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/tetheroffloadservice"],
+			shared_libs: ["libhwbinder", "libhidlbase", "libhidltransport", "liblog", "libforkexecwrap", "libcutils", "libbase", "libutils", "libnetutils", "libhardware_legacy", "libhardware", "android.hardware.tetheroffload.config@1.0", "android.hardware.tetheroffload.control@1.0", "android.hardware.tetheroffload.control@1.1", "vendor.mediatek.hardware.netdagent@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.mediatek.hardware.keymaster_attestation@1.1-service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service"],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "libhidltransport", "vendor.mediatek.hardware.keymaster_attestation@1.1", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.mediatek.hardware.mmagent@1.1-service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service"],
+			shared_libs: ["libmmagent", "libbase", "libhidlbase", "liblog", "libutils", "libgralloc_extra", "vendor.mediatek.hardware.mmagent@1.0", "vendor.mediatek.hardware.mmagent@1.1", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.mediatek.hardware.mms@1.6-service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service"],
+			shared_libs: ["libhidlbase", "libhidltransport", "liblog", "libutils", "libhardware", "vendor.mediatek.hardware.mms@1.6", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.mediatek.hardware.nvram@1.1-service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service"],
+			shared_libs: ["libutils", "libcutils", "libhardware", "libhidlbase", "libhidltransport", "libbinder", "libnvram", "liblog", "vendor.mediatek.hardware.nvram@1.1", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.mediatek.hardware.pq@2.2-service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service"],
+			shared_libs: ["libhidlbase", "libhidltransport", "liblog", "libutils", "libhardware", "vendor.mediatek.hardware.pq@2.15", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vtservice_hidl",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vtservice_hidl"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libbase", "libfmq", "vendor.mediatek.hardware.videotelephony@1.0_vendor", "libhardware", "libhwbinder", "libhidlbase", "libhidltransport", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "ipsec_mon",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/ipsec_mon"],
+			shared_libs: ["libcutils", "liblog", "libforkexecwrap", "libifcutils_mtk", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "jpegtool",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/jpegtool"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libjpeg-alpha_vendor", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "lbs_hidl_service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/lbs_hidl_service"],
+			shared_libs: ["liblog", "libcutils", "libbase", "libhardware", "libbinder", "libhidlbase", "libhidltransport", "libutils", "vendor.mediatek.hardware.lbs@1.0", "lbs_hidl_service-impl", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+sh_binary {
+	name: "lib3a.ccu.ddr",
+	owner: "realme",
+	src: "proprietary/vendor/bin/lib3a.ccu.ddr",
+	filename: "lib3a.ccu.ddr",
+	soc_specific: true,
+}
+
+sh_binary {
+	name: "lib3a.ccu.dm",
+	owner: "realme",
+	src: "proprietary/vendor/bin/lib3a.ccu.dm",
+	filename: "lib3a.ccu.dm",
+	soc_specific: true,
+}
+
+sh_binary {
+	name: "lib3a.ccu.pm",
+	owner: "realme",
+	src: "proprietary/vendor/bin/lib3a.ccu.pm",
+	filename: "lib3a.ccu.pm",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "mcDriverDaemon",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/mcDriverDaemon"],
+			shared_libs: ["liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "md_monitor",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/md_monitor"],
+			shared_libs: ["libccci_util", "libselinux", "libcutils", "vendor.mediatek.hardware.mdmonitor@1.0", "libhidlbase", "libhidltransport", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "md_monitor_ctrl",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/md_monitor_ctrl"],
+			shared_libs: ["liblog", "libutils", "libcutils", "vendor.mediatek.hardware.mdmonitor@1.0", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "mnld",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/mnld"],
+			shared_libs: ["libmnl", "libcurl", "libcutils", "libnvram", "libcrypto", "libssl", "libz", "liblog", "libhardware", "libladder", "libDR", "libutils", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "libhidlbase", "libhidltransport", "android.hardware.sensors@1.0-convert-shared", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "mrdump_tool",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/mrdump_tool"],
+			shared_libs: ["libcutils", "libz", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "mt6660_calibration",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/mt6660_calibration"],
+			shared_libs: ["liblog", "libc", "libdl", "libm", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "mtk_agpsd",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/mtk_agpsd"],
+			shared_libs: ["libcutils", "liblog", "libutils", "libandroid_net", "libcrypto-v32", "libexpat", "libssl-v32", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "mtk_pkm_service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/mtk_pkm_service"],
+			shared_libs: ["liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "muxreport",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/muxreport"],
+			shared_libs: ["libmtkrillog", "libmtkproperty", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "netdagent",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/netdagent"],
+			shared_libs: ["libcutils", "liblog", "libforkexecwrap", "libutils", "libhidlbase", "libifcutils_mtk", "vendor.mediatek.hardware.netdagent@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "netdc",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/netdc"],
+			shared_libs: ["libcutils", "liblog", "libutils", "libhidlbase", "vendor.mediatek.hardware.netdagent@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "nvram_daemon",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/nvram_daemon"],
+			shared_libs: ["libcutils", "libnvram", "libfile_op", "liblog", "libconnfem", "libhwm", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "rcs_volte_stack",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/rcs_volte_stack"],
+			shared_libs: ["libcutils", "liblog", "librcs_volte_core", "libcrypto", "libnetutils", "libhardware", "libhardware_legacy", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "recordevent",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/recordevent"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "replayevent",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/replayevent"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "rt5512_calibration",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/rt5512_calibration"],
+			shared_libs: ["liblog", "libc", "libdl", "libm", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "rttv",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/rttv"],
+			shared_libs: ["libaedv", "libcutils", "liblog", "libz", "libc", "libdl", "libm", "libc++", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "starter",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/starter"],
+			shared_libs: ["libstrongswan", "libhydra", "libc", "libm", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "stroke",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/stroke"],
+			shared_libs: ["libstrongswan", "libc", "libm", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "thermal",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/thermal"],
+			shared_libs: ["libcutils", "libifcutils_mtk", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "thermal_manager",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/thermal_manager"],
+			shared_libs: ["libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "thermalloadalgod",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/thermalloadalgod"],
+			shared_libs: ["liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "volte_clientapi_ua",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/volte_clientapi_ua"],
+			shared_libs: ["libbase", "libcutils", "libfmq", "liblog", "libutils", "libhardware", "libhidlbase", "libhidltransport", "libhwbinder", "vendor.mediatek.hardware.clientapi@1.0", "libhardware_legacy", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "volte_imcb",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/volte_imcb"],
+			shared_libs: ["libvolte_core_shr", "libvolte_xdmc_shr", "libverno", "libcutils", "liblog", "libc", "libdl", "libm", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "volte_imsm_93",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/volte_imsm_93"],
+			shared_libs: ["libcutils", "libverno", "liblog", "libc", "libdl", "libm", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "volte_md_status",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/volte_md_status"],
+			shared_libs: ["libcutils", "libverno", "liblog", "libc", "libdl", "libm", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "volte_rcs_ua",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/volte_rcs_ua"],
+			shared_libs: ["libbase", "libcutils", "libfmq", "liblog", "libutils", "libhardware", "libhidlbase", "libhidltransport", "libhwbinder", "vendor.mediatek.hardware.rcs@2.0", "libhardware_legacy", "libcrypto", "libnetutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "volte_stack",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/volte_stack"],
+			shared_libs: ["libvolte_core_shr", "libvolte_xdmc_shr", "libipsec_ims_shr", "libverno", "libcutils", "liblog", "libc", "libdl", "libm", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "volte_ua",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/volte_ua"],
+			shared_libs: ["libvolte_core_shr", "libvolte_xdmc_shr", "libverno", "libcutils", "liblog", "libc", "libdl", "libm", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vpud",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/vpud"],
+			shared_libs: ["libcutils", "libvpud_vcodec", "libvcodec_utility", "liblog", "libion", "libaedv", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "wfca",
+	owner: "realme",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/wfca"],
+			shared_libs: ["liblog", "libc", "libdl", "libm", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "wlan_assistant",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/wlan_assistant"],
+			shared_libs: ["libc", "liblog", "libcutils", "libnl", "libc++", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "wmt_launcher",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/wmt_launcher"],
+			shared_libs: ["libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "wmt_loader",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/wmt_loader"],
+			shared_libs: ["libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "xcap",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/xcap"],
+			shared_libs: ["libcurl-md", "libssl-md", "libcrypto-md", "libcutils", "libverno", "liblog", "libc", "libdl", "libm", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vtservice",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system_ext/bin/vtservice"],
+			shared_libs: ["libbinder", "libutils", "libcutils", "liblog", "libmtk_vt_service", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.oplus.hardware.biometrics.fingerprint@2.1-service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service"],
+			shared_libs: ["libbinder", "liblog", "libhidlbase", "libhidltransport", "libutils", "vendor.oplus.hardware.biometrics.fingerprint@2.1", "android.hardware.biometrics.fingerprint@2.3", "android.hardware.biometrics.fingerprint@2.2", "android.hardware.biometrics.fingerprint@2.1", "libMcClient", "libhardware", "vendor.oplus.hardware.commondcs@1.0", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	device_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.oplus.hardware.charger@1.0-service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/bin/hw/vendor.oplus.hardware.charger@1.0-service"],
+			shared_libs: ["vendor.oplus.hardware.charger@1.0", "libcutils", "libhidlbase", "libhidltransport", "liblog", "libutils", "libbase", "libbinder", "android.frameworks.sensorservice@1.0", "android.hardware.sensors@1.0", "vendor.oplus.hardware.osense.client-V1-ndk_platform", "libosenseaidlhalclient", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	device_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.oplus.hardware.oplusSensor@1.0-service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service"],
+			shared_libs: ["vendor.oplus.hardware.oplusSensor@1.0", "libbase", "libcutils", "libdumpstateutil", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libhardware", "libhwm-oplus", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	device_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.oplus.hardware.ormsHalService-aidl-service",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/bin/hw/vendor.oplus.hardware.ormsHalService-aidl-service"],
+			shared_libs: ["libbase", "libbinder_ndk", "liblog", "vendor.oplus.hardware.ormsHalService-V1-ndk_platform", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	device_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "mtkftm",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/bin/mtkftm"],
+			shared_libs: ["libcutils", "libnetutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	device_specific: true,
+}
+
