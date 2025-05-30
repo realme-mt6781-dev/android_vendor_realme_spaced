@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/spaced
 
 PRODUCT_COPY_FILES += \
-    vendor/realme/spaced/proprietary/W#:$(TARGET_COPY_OUT_SYSTEM)/W# \
     vendor/realme/spaced/proprietary/odm/etc/audio/audio_device/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/audio_device.xml \
     vendor/realme/spaced/proprietary/odm/etc/audio/audio_device/common/audio_device.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_device/common/audio_device.xml \
     vendor/realme/spaced/proprietary/odm/etc/audio/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/AudioParamOptions.xml \
@@ -186,8 +185,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
     vendor/realme/spaced/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/curve_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_0 \
-    vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_1 \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/curve_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_10 \
+    vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_1 \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/curve_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_2 \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/curve_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_3 \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/curve_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_4 \
@@ -199,8 +198,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/list.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/list.txt \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/s_curve_lut:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/s_curve_lut \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/tonemap_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_0 \
-    vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/tonemap_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_1 \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/tonemap_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_10 \
+    vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/tonemap_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_1 \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/tonemap_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_2 \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/tonemap_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_3 \
     vendor/realme/spaced/proprietary/odm/etc/camera/tonemap/tonemap_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_4 \
@@ -1597,8 +1596,7 @@ PRODUCT_PACKAGES += \
     libocam_common \
     liboplus.aishutter \
     liboplus_mtkcam_lightsensorprovider \
-    liboplus_platform_hwi \
-    libprotobuf-cpp-lite-3.9.1 \
+    liboplus_platform_hwi_vendor \
     libratconfig \
     librilfusion \
     libsensor_custom \
@@ -1661,6 +1659,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.videotelephony@1.0_vendor \
     vendor.oplus.hardware.cameraextension@1.0 \
     vendor.oplus.hardware.cammidasservice@1.0 \
+    vendor.oplus.hardware.radio-V1-ndk_platform_vendor \
     libneuron_graph_delegate.mtk \
     libcomutils \
     libimsma \
@@ -1688,6 +1687,7 @@ PRODUCT_PACKAGES += \
     libnxprecord \
     libnxpspeech \
     liboemcrypto \
+    liboplus_platform_hwi \
     libormshalclient \
     libosenseaidlhalclient \
     libosensehalclient \
@@ -1709,11 +1709,10 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.osense.client-V1-ndk_platform \
     vendor.oplus.hardware.osense.client@1.0 \
     vendor.oplus.hardware.performance-V1-ndk_platform \
+    vendor.oplus.hardware.radio-V1-ndk_platform \
+    libAlgoProcess \
     libffmpeg_omx \
     libnp-loader \
-    libpn553_fw \
-    libpn557_fw \
-    libsn100u_fw \
     anc.capacitive.hal \
     anc.hal \
     fingerprint.focaltech.default \
@@ -1723,11 +1722,11 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix_G6.default \
     fingerprint.goodix_G7.default \
     fingerprint.silead.default \
+    libAlgoProcess_odm \
     libarcsoft_dualcam_wt_calibration \
     libarcsoft_dualcam_wt_verification \
     libarcsoft_scbokeh_video \
     libcalibverifyW_T \
-    libegis_hal \
     libgf_hal_G2 \
     libgf_hal_G3 \
     libgf_hal_G5 \
@@ -1735,9 +1734,12 @@ PRODUCT_PACKAGES += \
     libgf_hal_G7 \
     libhwm-oplus_odm \
     libneuron_runtime \
+    libpn553_fw \
+    libpn557_fw \
     libremosaic_wrapper_odm \
     libremosaiclib_odm \
     libsl_fp_impl \
+    libsn100u_fw \
     oplus.sensors.ssc \
     vendor.oplus.hardware.biometrics.fingerprint@2.1_odm \
     vendor.oplus.hardware.commondcs@1.0_odm \
@@ -1788,8 +1790,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.graphics.allocator@4.0-service-mediatek \
     android.hardware.keymaster@4.1-service.trustonic \
-    android.hardware.media.c2@1.2-mediatek \
     android.hardware.media.c2@1.2-mediatek-64b \
+    android.hardware.media.c2@1.2-mediatek \
     android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.thermal@2.0-service.mtk \
