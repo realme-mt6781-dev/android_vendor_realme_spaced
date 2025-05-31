@@ -283,8 +283,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/odm/firmware/tp/21684/LIMIT_NF_ILI7807S_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21684/LIMIT_NF_ILI7807S_BOE.img \
     vendor/realme/spaced/proprietary/odm/firmware/tp/21684/LIMIT_NF_ILI7807S_HLT.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21684/LIMIT_NF_ILI7807S_HLT.img \
     vendor/realme/spaced/proprietary/odm/init.oplus.fingerprints.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.fingerprints.rc \
-    vendor/realme/spaced/proprietary/odm/lib/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib/libdav1d.so.4 \
-    vendor/realme/spaced/proprietary/odm/lib64/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib64/libdav1d.so.4 \
     vendor/realme/spaced/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin \
     vendor/realme/spaced/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.tlbin \
     vendor/realme/spaced/proprietary/odm/vendor/app/mcRegistry/030f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030f0000000000000000000000000000.drbin \
@@ -1681,6 +1679,7 @@ PRODUCT_PACKAGES += \
     libavcodec \
     libavformat \
     libavutil \
+    libdav1d.so \
     libdpservice \
     libmpbase \
     libmxmafa \

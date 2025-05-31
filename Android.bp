@@ -19107,6 +19107,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libdav1d.so",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/libdav1d.so.4"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libdav1d.so.4"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libdpservice",
 	owner: "realme",
 	strip: {
