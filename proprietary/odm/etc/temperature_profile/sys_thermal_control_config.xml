@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sys_thermal_control_list>
-    <version>2022050514</version>
+    <version>2023051509</version>
     <filter-name>sys_thermal_control_list</filter-name>
     <featureConfigItem>
         <feature_enable_item booleanVal="true"/>
@@ -343,6 +343,7 @@
             </com.android.incallui>
 
             <com.oppo.camera-com.oplus.camera>
+            
                 <gear_config tempGear="3"
                 cpu="-1" gpu="-1" restrict="0" brightness="0" charge="5" modem="0" disFlashlight="0"
                 stopCameraVideo="0" cameraBrightness="255" disCamera="0" disWifiHotSpot="0" disTorch="0" disFrameInsert="0" fps="0" refreshRate="0"/>
@@ -382,7 +383,7 @@
                 <gear_config tempGear="14"
                 cpu="5" gpu="4" restrict="5" brightness="11" charge="2" modem="3" disFlashlight="1"
                 stopCameraVideo="1" cameraBrightness="123" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
-            </com.oppo.camera-com.oplus.camera>
+                </com.oppo.camera-com.oplus.camera>
         </specific>
 
         <scene>
