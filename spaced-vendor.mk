@@ -1750,6 +1750,7 @@ PRODUCT_PACKAGES += \
     mediatek-services \
     mediatek-telecom-common \
     mediatek-telephony-base \
+    mediatek-telephony-base \
     mediatek-telephony-common \
     com.android.hotwordenrollment.common.util \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
