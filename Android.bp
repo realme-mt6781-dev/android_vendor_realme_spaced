@@ -7,6 +7,7 @@ soong_namespace {
 		"device/realme/spaced",
 		"hardware/mediatek",
 		"hardware/mediatek/libmtkperf_client",
+        "hardware/lineage/compat",
 		"hardware/oplus",
 	],
 }
@@ -11177,26 +11178,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMtkOmxCore",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libMtkOmxCore.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libMtkOmxCore.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libMtkSpeechEnh",
 	owner: "realme",
 	strip: {
@@ -16657,26 +16638,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstagefrighthw",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libstagefrighthw.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libstagefrighthw.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libstereoinfoaccessor_vsdof",
 	owner: "realme",
 	strip: {
@@ -18354,91 +18315,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libMtkOmxAdpcmDec",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libMtkOmxAdpcmDec.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libMtkOmxAlacDec",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libMtkOmxAlacDec.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libMtkOmxApeDec",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libMtkOmxApeDec.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libMtkOmxGsmDec",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libMtkOmxGsmDec.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libMtkOmxMp3Dec",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libMtkOmxMp3Dec.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libfgauge_gm30",
 	owner: "realme",
 	strip: {
@@ -18924,6 +18800,42 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "android.hardware.gnss-impl-mediatek",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "android.hardware.gnss@2.1-impl-mediatek",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -21813,23 +21725,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libffmpeg_omx",
-	owner: "realme",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libffmpeg_omx.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libnp-loader",
 	owner: "realme",
 	strip: {
@@ -22472,6 +22367,24 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "gnss-mtk.xml",
+	owner: "realme",
+	src: "proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "gnss@2.1-service-mtk.xml",
+	owner: "realme",
+	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service-mtk.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "lbs_hidl_service@1.0.xml",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
@@ -22869,6 +22782,24 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+	name: "android.hardware.gnss-service.mediatek",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
 	name: "android.hardware.graphics.allocator@4.0-service-mediatek",
 	owner: "realme",
 	target: {
@@ -22964,6 +22895,24 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.sensors@2.0-service.multihal-mediatek",
+	owner: "realme",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek"],
 		},
 	},
 	compile_multilib: "64",

@@ -45,20 +45,25 @@
     <EccEntry Ecc="119" Category="0" Condition="1" Plmn="460 03"/>
     <EccEntry Ecc="120" Category="0" Condition="1" Plmn="460 03"/>
     <EccEntry Ecc="122" Category="0" Condition="1" Plmn="460 03"/>
-    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="460 03"/>
 
     <!-- Add for CT VOLTE requirement -->
     <EccEntry Ecc="110" Category="1" Condition="1" Plmn="460 11"/>
     <EccEntry Ecc="119" Category="4" Condition="1" Plmn="460 11"/>
     <EccEntry Ecc="120" Category="2" Condition="1" Plmn="460 11"/>
     <EccEntry Ecc="122" Category="8" Condition="1" Plmn="460 11"/>
-    <EccEntry Ecc="999" Category="0" Condition="1" Plmn="460 11"/>
 
     <!-- China CTA emergency numbers for GSM operators -->
     <EccEntry Ecc="110" Category="0" Condition="2" Plmn="460 FFF"/>
     <EccEntry Ecc="119" Category="0" Condition="2" Plmn="460 FFF"/>
     <EccEntry Ecc="120" Category="0" Condition="2" Plmn="460 FFF"/>
     <EccEntry Ecc="122" Category="0" Condition="2" Plmn="460 FFF"/>
+
+    <!--460 China-->
+    <!--qianli.zhou@NW.Call.1050335, 2017-07-27, Modify for Emergency call -->
+    <EccEntry Ecc="000" Category="0" Condition="1"  Plmn = "460 FFF" />
+    <EccEntry Ecc="08" Category="0" Condition="1"  Plmn = "460 FFF" />
+    <EccEntry Ecc="999" Category="0" Condition="1"  Plmn = "460 FFF" />
+    <EccEntry Ecc="118" Category="0" Condition="1"  Plmn = "460 FFF" />
 
     <!-- Add for Taiwan FET operator (466 01) -->
     <EccEntry Ecc="110" Category="1" Condition="2" Plmn="466 01"/>
@@ -397,9 +402,6 @@
     <EccEntry Ecc="119" Category="0" Condition="2" Plmn="413 FFF"/>
 
     <!--414 Myanmar-->
-    <EccEntry Ecc="08" Category="0" Condition="1" Plmn="414 FFF"/>
-    <EccEntry Ecc="000" Category="0" Condition="1" Plmn="414 FFF"/>
-    <EccEntry Ecc="118" Category="0" Condition="1" Plmn="414 FFF"/>
     <EccEntry Ecc="191" Category="0" Condition="2" Plmn="414 FFF"/>
     <EccEntry Ecc="192" Category="0" Condition="2" Plmn="414 FFF"/>
     <EccEntry Ecc="199" Category="0" Condition="2" Plmn="414 FFF"/>
@@ -554,13 +556,6 @@
 
     <!--457 Lao People's Democratic Republic-->
     <EccEntry Ecc="1191" Category="0" Condition="1" Plmn="457 FFF"/>
-
-    <!--460 China-->
-    <!--qianli.zhou@NW.Call.1050335, 2017-07-27, Modify for Emergency call -->
-    <EccEntry Ecc="000" Category="0" Condition="1"  Plmn = "460 FFF" />
-    <EccEntry Ecc="08" Category="0" Condition="1"  Plmn = "460 FFF" />
-    <EccEntry Ecc="999" Category="0" Condition="1"  Plmn = "460 FFF" />
-    <EccEntry Ecc="118" Category="0" Condition="1"  Plmn = "460 FFF" />
 
     <!--466 TaiWan-->
     <!--MTK orig for 466 -->

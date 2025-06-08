@@ -475,11 +475,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Vodafone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Vodafone.xml \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
+    vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.trustonic.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
+    vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/atci_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atci_service.rc \
@@ -531,7 +533,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/realme/spaced/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
-    vendor/realme/spaced/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/realme/spaced/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/realme/spaced/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/realme/spaced/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
@@ -1157,7 +1158,6 @@ PRODUCT_PACKAGES += \
     libFrameRecord \
     libJpgEncPipe \
     libMcClient \
-    libMtkOmxCore \
     libMtkSpeechEnh \
     libNoFpsActor \
     libOpenCL \
@@ -1431,7 +1431,6 @@ PRODUCT_PACKAGES += \
     libspeech_enh_lib \
     libspeechparser_vendor \
     libssl-md \
-    libstagefrighthw \
     libstereoinfoaccessor_vsdof \
     libstrongswan \
     libsysenv \
@@ -1516,11 +1515,6 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.default \
     libAVCSecureVencCA \
     libHEVCdec_sa.ca7.android \
-    libMtkOmxAdpcmDec \
-    libMtkOmxAlacDec \
-    libMtkOmxApeDec \
-    libMtkOmxGsmDec \
-    libMtkOmxMp3Dec \
     libfgauge_gm30 \
     libh264dec_customize \
     libh264dec_sa.ca7 \
@@ -1550,6 +1544,8 @@ PRODUCT_PACKAGES += \
     APUWareUtilsServer \
     android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.camera.provider@2.6-impl-mediatek \
+    android.hardware.gnss-impl-mediatek \
+    android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.sensors@2.X-subhal-mediatek \
     hwcomposer.mt6781 \
     sensors.mt6781 \
@@ -1712,7 +1708,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.performance-V1-ndk_platform \
     vendor.oplus.hardware.radio-V1-ndk_platform \
     libAlgoProcess \
-    libffmpeg_omx \
     libnp-loader \
     anc.capacitive.hal \
     anc.hal \
@@ -1759,6 +1754,8 @@ PRODUCT_PACKAGES += \
     com.android.hotwordenrollment.common.util \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
+    gnss-mtk.xml \
+    gnss@2.1-service-mtk.xml \
     lbs_hidl_service@1.0.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_hwcomposer.xml \
@@ -1787,12 +1784,14 @@ PRODUCT_PACKAGES += \
     gsm0710muxd \
     android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.drm@1.4-service.widevine \
+    android.hardware.gnss-service.mediatek \
     android.hardware.graphics.allocator@4.0-service-mediatek \
     android.hardware.keymaster@4.1-service.trustonic \
     android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.media.c2@1.2-mediatek \
     android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     android.hardware.secure_element@1.2-service-mediatek \
+    android.hardware.sensors@2.0-service.multihal-mediatek \
     android.hardware.thermal@2.0-service.mtk \
     android.hardware.usb@1.2-service-mediatekv2 \
     camerahalserver \
