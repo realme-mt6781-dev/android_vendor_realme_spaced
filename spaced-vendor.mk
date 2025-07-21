@@ -296,7 +296,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/odm/vendor/app/mcRegistry/09070000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09070000000000000000000000000000.drbin \
     vendor/realme/spaced/proprietary/odm/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin \
     vendor/realme/spaced/proprietary/odm/vendor/app/mcRegistry/511ead0a000000000000000000000000.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/511ead0a000000000000000000000000.tabin \
-    vendor/realme/spaced/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/realme/spaced/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
     vendor/realme/spaced/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.tlbin \
     vendor/realme/spaced/proprietary/vendor/app/mcRegistry/05120000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/05120000000000000000000000000000.drbin \
@@ -627,6 +626,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.6-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.pq@2.15-impl \
+    vendor.mediatek.hardware.videotelephony@1.0-impl \
     vulkan.mali \
     libDefaultFpsActor \
     libFrameRecord \
@@ -858,6 +858,7 @@ PRODUCT_PACKAGES += \
     libvpud_vcodec \
     libvt_custom \
     vendor.mediatek.hardware.rcs@2.0 \
+    vendor.mediatek.hardware.videotelephony@1.0 \
     APUWareUtilsServer \
     gc02m1bsy_mipi_raw_21690_IdxMgr \
     gc02m1bsy_mipi_raw_21690_tuning \
@@ -880,7 +881,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.0-impl \
     vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
     vendor.mediatek.hardware.camera.postproc@1.0-impl \
-    vendor.mediatek.hardware.videotelephony@1.0-impl \
     vendor.oplus.hardware.cameraextension@1.0-service-impl \
     imx350_mipi_raw_IdxMgr \
     imx350_mipi_raw_tuning \
@@ -1655,21 +1655,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.oplus.hardware.radio-V1-ndk_platform_vendor \
     libneuron_graph_delegate.mtk \
-    libcomutils \
-    libimsma \
-    libimsma_adapt \
-    libimsma_rtp \
-    libimsma_socketwrapper \
-    libmtk_vt_service \
-    libmtk_vt_wrapper \
-    libsignal \
-    libsink \
-    libsource \
-    libvcodec_cap \
-    libvcodec_capenc \
-    libvt_avsync \
-    vendor.mediatek.hardware.videotelephony-V1-ndk \
-    vendor.mediatek.hardware.videotelephony@1.0 \
     libAncHumBokeh \
     libAncHumVideoBase \
     libavcodec \
@@ -1740,15 +1725,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.engcamera@1.0 \
     EngineerMode \
     HotwordEnrollmentOKGoogleCORTEXM4 \
-    ImsService \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-ims-extension-plugin \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
     com.android.hotwordenrollment.common.util \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
@@ -1842,7 +1818,6 @@ PRODUCT_PACKAGES += \
     wmt_launcher \
     wmt_loader \
     xcap \
-    vtservice \
     vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor.oplus.hardware.charger@1.0-service \
     vendor.oplus.hardware.oplusSensor@1.0-service \
