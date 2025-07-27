@@ -483,9 +483,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
-    vendor/realme/spaced/proprietary/vendor/etc/init/atci_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atci_service.rc \
-    vendor/realme/spaced/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
-    vendor/realme/spaced/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
@@ -514,7 +511,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spaced/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
-    vendor/realme/spaced/proprietary/vendor/etc/init/mtk_pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_pkm_service.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/realme/spaced/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
@@ -758,7 +754,6 @@ PRODUCT_PACKAGES += \
     libnvram_sec \
     liboplus_audio_config \
     liboppo_arcSoftBokehEngine \
-    libpkm \
     libpq_cust_base \
     libpqframework \
     libpqparamparser \
@@ -776,20 +771,16 @@ PRODUCT_PACKAGES += \
     libsysenv \
     libtflite_mtk \
     libthha \
-    libtlcWidevineModularDrm \
     libtranslator_mapi_v3.0 \
     libtranslator_mdmi_v2.8.2 \
     libtranslator_utils \
     libudf \
-    liburee_meta_drmkeyinstall \
     libvcodec_oal \
     libvcodecdrv_header_stub \
     libverno \
     libvpu \
     libvpu5 \
     libwo \
-    libwvhidl \
-    libwvdrmengine \
     libdpframework \
     libmtk_drvb \
     libnir_neon_driver \
@@ -829,7 +820,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.oplus.hardware.commondcs@1.0 \
-    sound_trigger.primary.default \
+    sound_trigger.primary.mt6781 \
     libAVCSecureVencCA \
     libHEVCdec_sa.ca7.android \
     libfgauge_gm30 \
@@ -873,6 +864,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.sensors@2.X-subhal-mediatek \
+    gralloc.mt6781 \
     hwcomposer.mt6781 \
     sensors.mt6781 \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
@@ -1596,12 +1588,16 @@ PRODUCT_PACKAGES += \
     libsensor_custom \
     libstereoinfoaccessor_vsdof \
     libstorage_otp \
+    libtlcWidevineModularDrm \
     libtrm \
+    liburee_meta_drmkeyinstall \
     libvia-ril \
     libviamipc-ril \
     libwifi-hal-mtk \
     libwifitest \
     libwpfa \
+    libwvhidl \
+    libwvdrmengine \
     libmtkcam_streaminfo_plugin-p1stt \
     ov02b1b_mipi_mono_21690_IdxMgr \
     ov02b1b_mipi_mono_21690_tuning \
@@ -1622,7 +1618,6 @@ PRODUCT_PACKAGES += \
     s5kjn1_mipi_raw_21690_IdxMgr \
     s5kjn1_mipi_raw_21690_tuning \
     vendor.mediatek.hardware.apuware.utils@2.0 \
-    vendor.mediatek.hardware.atci@1.0 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
@@ -1666,7 +1661,6 @@ PRODUCT_PACKAGES += \
     libmxmafa \
     libnxprecord \
     libnxpspeech \
-    liboemcrypto \
     liboplus_platform_hwi \
     libormshalclient \
     libosenseaidlhalclient \
@@ -1713,6 +1707,7 @@ PRODUCT_PACKAGES += \
     libgf_hal_G7 \
     libhwm-oplus_odm \
     libneuron_runtime \
+    liboemcrypto \
     libpn553_fw \
     libpn557_fw \
     libremosaic_wrapper_odm \
@@ -1740,9 +1735,6 @@ PRODUCT_PACKAGES += \
     manifest_oplus_fingerprint.xml \
     ormsHalService-default.xml \
     AgentTest \
-    atci_service \
-    atcid \
-    audiocmdservice_atci \
     autobt \
     bip \
     ccci_mdinit \
@@ -1762,7 +1754,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0-service-mediatek \
     android.hardware.keymaster@4.1-service.trustonic \
     android.hardware.media.c2@1.2-mediatek-64b \
-    android.hardware.media.c2@1.2-mediatek \
     android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.sensors@2.0-service.multihal-mediatek \
@@ -1790,7 +1781,6 @@ PRODUCT_PACKAGES += \
     mrdump_tool \
     mt6660_calibration \
     mtk_agpsd \
-    mtk_pkm_service \
     muxreport \
     netdagent \
     netdc \
