@@ -895,6 +895,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libadpcmdec_mtk",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libadpcmdec_mtk.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libadpcmdec_mtk.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libaedv",
 	owner: "realme",
 	strip: {
@@ -2746,6 +2766,26 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libmnetlink_v104.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmp3dec_mtk",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmp3dec_mtk.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libmp3dec_mtk.so"],
 		},
 	},
 	compile_multilib: "both",

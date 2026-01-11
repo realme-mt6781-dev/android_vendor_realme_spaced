@@ -638,6 +638,7 @@ PRODUCT_PACKAGES += \
     libaal_key \
     libaal_mtk \
     libaalservice \
+    libadpcmdec_mtk \
     libaedv \
     libakm \
     libalsautils-v31 \
@@ -731,6 +732,7 @@ PRODUCT_PACKAGES += \
     libmml \
     libmmprofile \
     libmnetlink_v104 \
+    libmp3dec_mtk \
     libmsbc_mtk \
     libmsnr \
     libmtcloader \
