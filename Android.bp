@@ -7,7 +7,6 @@ soong_namespace {
 		"device/realme/spaced",
 		"hardware/mediatek",
 		"hardware/mediatek/libmtkperf_client",
-        "hardware/lineage/compat",
 		"hardware/oplus",
 	],
 }
